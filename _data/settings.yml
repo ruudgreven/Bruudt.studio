@@ -36,22 +36,23 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Creative by &#129505;, &#129299; by design<br/>Creating cool things
 
 social:
-  - { icon: "ti-facebook", link: "#" }
-  - { icon: "ti-instagram", link: "#" }
-  - { icon: "ti-dribbble", link: "#" }
-  - { icon: "ti-twitter", link: "#" }
+- { icon: "ti-youtube", link: "https://www.youtube.com/@bruudt" }
+#  - { icon: "ti-facebook", link: "#" }
+#  - { icon: "ti-instagram", link: "#" }
+#  - { icon: "ti-dribbble", link: "#" }
+#  - { icon: "ti-twitter", link: "#" }
 
 #-------------------------------
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: After 15 years of teaching computer science subjects to students I found a new part of myself, named <strong>Creativity</strong>. The outcome is a wild collection of creative things, from writings, to nerdy technical projects (building my own arcade machine and a smart sjoelbak (don't ask...) to 3D printed art. This site is a dedication to that work.
 
 blurb-btn-link: "/about"
-blurb-btn-name: know more
+blurb-btn-name: Tell me more, tell me more!
 
 # About Page
 
