@@ -1,8 +1,8 @@
 .navigation{
   padding: 40px 130px;
   transition: .3s ease;
+  background: $primary-color;
   &.nav-bg {
-    background-color: $primary-color;
     padding: 15px 100px;
     @include desktop {
       padding: 15px 20px;
@@ -10,7 +10,6 @@
   }
   @include desktop {
     padding: 20px;
-    background: $primary-color;
   }
 }
 

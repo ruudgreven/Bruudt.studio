@@ -4,18 +4,16 @@
 
 title: Bruudt
 logo: assets/logo.png
-author: themefisher
+author: Bruudt
 description: Creative by heart, Nerd by design
 email: ruud@bruudt.studio
 phone: 
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+address: 
+copyright: Copyright &copy; 2025. Theme designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
 
 menu:
+  - { name: Shop, link: "/shop" }
   - { name: About, link: "/about" }
-  - { name: Blog, link: "/blog" }
-  - { name: Portfolio, link: "/portfolio" }
-  - { name: Contact, link: "/contact" }
 
 #-------------------------------
 # Google Analytics Section
@@ -36,10 +34,12 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Creative by &#129505;, &#129299; by design<br/>Creating cool things
+  hero-title: Creativity to the max!
+  hero-subtitle: On a small amount of space.<br/>With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FF0000" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg> from the Netherlands.
 
 social:
 - { icon: "ti-youtube", link: "https://www.youtube.com/@bruudt" }
+- { icon: "ti-instagram", link: "https://www.instagram.com/bruudt" }
 #  - { icon: "ti-facebook", link: "#" }
 #  - { icon: "ti-instagram", link: "#" }
 #  - { icon: "ti-dribbble", link: "#" }
@@ -49,40 +49,12 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: After 15 years of teaching computer science subjects to students I found a new part of myself, named <strong>Creativity</strong>. The outcome is a wild collection of creative things, from writings, to nerdy technical projects (building my own arcade machine and a smart sjoelbak (don't ask...) to 3D printed art. This site is a dedication to that work.
+blurb: After 15 years of teaching computer science subjects to students I found a new part of myself, named <strong>Creativity</strong>. The outcome is a wild collection of creative things, from 3d printed art, to nerdy technical projects (building my own arcade machine and a smart sjoelbak (don't ask...)) and writings (young adult). This site is a dedication to that work.
 
 blurb-btn-link: "/about"
-blurb-btn-name: Tell me more, tell me more!
+blurb-btn-name: Click to read more about me
 
 # About Page
-
-# Work Process Section
-work-process:
-  - title: "Research and Plan"
-    icon: "assets/images/icons/plan.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Design and Develop"
-    icon: "assets/images/icons/design.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  - title: "Deliver"
-    icon: "assets/images/icons/print.png"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-# My Team Section
-team:
-  - title: "Jack Schenziwe"
-    image: "assets/images/team/member-1.png"
-    designation: "Project Manager"
-
-  - title: "Julias Carlie"
-    image: "assets/images/team/member-2.png"
-    designation: "Web Developer"
-
-  - title: "John Doe"
-    image: "assets/images/team/member-3.png"
-    designation: "Designer"
 
 #-------------------------------
 # Skills Section

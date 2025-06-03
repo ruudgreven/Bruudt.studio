@@ -22,6 +22,11 @@
             <a class="nav-link" href="{{ link.link }}">{{ link.name }}</a>
           </li>
         {% endfor %}
+        {% for social in site.data.settings.social %}
+        <li class="mb-3 ml-3 mt-2">
+          <a class="text-white h4" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a>
+        </li>
+        {% endfor %}
       </ul>
     </div>
   </nav>

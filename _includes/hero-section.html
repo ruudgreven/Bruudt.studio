@@ -1,46 +1,21 @@
 <!-- hero area -->
-<section class="hero-area bg-primary" id="parallax">
-  <div class="container">
+<section class="hero-area bg-cover" data-background="{{ site.baseurl }}/assets/images/backgrounds/map.png">
+  <div class="container-fluid layer">
     <div class="row">
-      <div class="col-lg-11 mx-auto">
-        <h1 class="text-white font-tertiary">{{ site.data.settings.hero.hero-title }}</h1>
+      <div class="col-md-6 col-lg-7 col-xl-8 mx-auto">
+        <h1 class="text-white mt-5 ml-5">{{ site.data.settings.hero.hero-title }}</h1>
+        <h4 class="text-white mt-5 ml-5">{{ site.data.settings.hero.hero-subtitle }}</h4>
+      </div>
+      <div class="col-md-6 col-lg-5 col-xl-4 mx-auto">
+          <img src="assets/images/studio.png" class="img-fluid" />
       </div>
     </div>
   </div>
-  <div class="layer-bg w-100">
-    <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/images/illustrations/leaf-bg.png" alt="bg-shape">
-<!--    <div class="layer" id="l2">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="bg-shape">
-    </div>-->
-    <div class="layer" id="l3">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/pi-pico.png" alt="bg-shape">
-    </div>
-    <!--<div class="layer" id="l4">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/dots-orange.png" alt="bg-shape">
-    </div>-->
-    <div class="layer" id="l5">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/dorian.png" alt="bg-shape">
-    </div>
-    
-    <!--<div class="layer" id="l6">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan.png" alt="bg-shape">
-    </div>-->
-    <div class="layer" id="l7">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/dots-multicolor.png" alt="bg-shape">
-    </div>
-    <div class="layer" id="l8">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/belljar.png" alt="bg-shape">
-    </div>
-    <div class="layer" id="l9">
-      <img src="{{ site.baseurl }}/assets/images/illustrations/dorian.png" alt="bg-shape">
-    </div>
-  </div>
-  <!-- social icon -->
-  <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-    {% for social in site.data.settings.social %}
-    <li class="mb-3"><a class="text-white" href="{{ social.link }}"><i class="{{ social.icon }}"></i></a></li>
-    {% endfor %}
-  </ul>
-  <!-- /social icon -->
+
+  <svg height="0" width="0">
+    <mask id="studioBlob">
+      <path fill="#FF0066" d="M55,-21.9C60.3,-1.4,46.2,21.4,25.1,37.5C3.9,53.6,-24.3,62.9,-45.5,50.4C-66.7,37.9,-80.8,3.5,-72.1,-21.6C-63.3,-46.8,-31.7,-62.8,-3.4,-61.7C24.8,-60.6,49.6,-42.4,55,-21.9Z" transform="translate(100 100)" />
+    </mask>
+  </svg>
 </section>
 <!-- /hero area -->
