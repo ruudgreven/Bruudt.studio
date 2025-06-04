@@ -3,16 +3,10 @@ layout: about
 title: About Me
 author: Ruud Greven
 image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+<p class="text-dark">I was born in the east of the Netherlands and always stayed there. As a child I played a lot with Lego and I got the leading role in the end-of-primary-school-musical. I really enjoyed it. After that I became a bit more serious and during my secondary school I wrote some content for the school newspaper.</p>
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+<p class="text-dark">Then I decided that it was a good idea to study a Bachelor of Computer Science. I specialized in programming and despite I really like it as a hobby it was never my job, because I started as a lecturer in Computer Science right after my education. Ten years later I got a Master degree in education and innovation.</p>
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+<p class="text-dark">A few months before I celebrated my 42th birthday I decided that the time was right to find the answer to life, the universe and everything (pun intended). I quited, after 18 years, my (well payed) job as a teacher at higher education to do things that really sparked joy for me at this moment. Three days a week I had a payed job at a day care for authistic people where I help them to enjoy the perks of autism: Creativity, dedication and thinking different. The other days of the week I do all kind of creative projects under the name <strong>Bruudt</strong>.</p>

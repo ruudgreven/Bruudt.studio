@@ -35,7 +35,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 hero:
   hero-title: Creativity to the max!
-  hero-subtitle: On a small amount of space.<br/>With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FF0000" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg> from the Netherlands.
+  hero-subtitle: On a small amount of space.<br/>With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FF0000" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg> from the east of the Netherlands.
 
 social:
 - { icon: "ti-youtube", link: "https://www.youtube.com/@bruudt" }
@@ -49,22 +49,20 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: After 15 years of teaching computer science subjects to students I found a new part of myself, named <strong>Creativity</strong>. The outcome is a wild collection of creative things, from 3d printed art, to nerdy technical projects (building my own arcade machine and a smart sjoelbak (don't ask...)) and writings (young adult). This site is a dedication to that work.
-
-blurb-btn-link: "/about"
-blurb-btn-name: Click to read more about me
-
+blurb: By seeing, hearing, feeling and wandering around I absorb the world like a sponge. In my Home Studio everything comes together in a creative project, which can be written, tinkered, 3d printed, painted or a combination of these.
+support: Enjoying my creativity?
 # About Page
 
 #-------------------------------
 # Skills Section
 
-skills-title: Skills
+skills-title: "My creative skillset"
 skills:
-  - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
-  - { name: Web App, color: "#ffbcaa", value: "70%" }
+  - { name: "3D Design and printing", text: "Designing cool stuff using Blender with my Huion Kamvas tablet and printing these design with my Bambulab 3d printer.", image: "assets/images/skills/3d.png" }
+  - { name: "App Design, Programming and Electronics", text: "Developing (Mac or iPhone) apps and playing around with programming Raspberry PI Pico's or other microprocessors.", image: "assets/images/skills/programming.png" }
+  - { name: "Handcraft tinkering", text: "Transforming old packaging materials, plastics or cardboard into something nice.", image: "assets/images/skills/tinkering.png"}
+  - { name: "Writing and storytelling", text: "Writing short stories and even (future) books in the Young Adult genre. Besides that I am sometimes acting in historic events or stories (like murdering misteries)", image: "assets/images/skills/writing.png"}
+  - { name: "Combining all of these", text: "Bringing all together to invent new things: Do storytelling with my own tinkered fairytales in a jar, building a working mill with sound or make flame torches for a Harry Potter world.", image: "assets/images/skills/combining.png"}
 
 #-------------------------------
 # Exprerience Section
