@@ -38,12 +38,16 @@ hero:
   hero-subtitle: On a small amount of space.<br/>With <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#FF0000" class="bi bi-heart-fill" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/></svg> from the east of the Netherlands.
 
 social:
-- { icon: "ti-youtube", link: "https://www.youtube.com/@bruudt" }
-- { icon: "ti-instagram", link: "https://www.instagram.com/bruudt" }
-#  - { icon: "ti-facebook", link: "#" }
-#  - { icon: "ti-instagram", link: "#" }
-#  - { icon: "ti-dribbble", link: "#" }
-#  - { icon: "ti-twitter", link: "#" }
+- { icon: "ti-instagram", link: "https://www.instagram.com/bruudt", handle: "Bruudt", name: "Instagram" }
+- { icon: "ti-youtube", link: "https://www.youtube.com/@bruudt", handle: "Bruudt", name: "Youtube" }
+- { icon: "ti-patreon", link: "https://www.patreon.com/bruudt", handle: "Bruudt", name: "Patreon" }
+
+3drepos:
+- { link: "https://makerworld.com/@bruudt", handle: "Bruudt", name: "Makerworld" }
+- { link: "https://www.thingiverse.com/bruudt/designs", handle: "Bruudt", name: "Thingiverse" }
+
+supportme:
+- { link: "https://buymeacoffee.com/bruudt", handle: "Bruudt", name: "BuyMeACoffee" }
 
 #-------------------------------
 # About (Section and Page)

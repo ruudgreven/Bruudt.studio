@@ -1,0 +1,58 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+    <!-- Links -->
+    <section class="section pt-5 position-relative" style="margin-top:150px;">
+    <div class="container">
+        <div class="row">
+        <div class="col-md-8">
+            <!-- <h3 class="mt-5">Most mentionable 3D Projects</h3> -->
+
+
+            <h3 class="mt-5">Download 3D files</h3>
+             {% for repo in site.data.settings.3drepos %}
+                <p class="paragraph-lg text-dark">
+                    <a class="text-white h4" href="{{ repo.link }}">
+                    <button type="button" class="btn btn-secondary">{{ repo.handle }} on  <strong> {{ repo.name }} </strong></button>
+                    </a>
+                </p>
+            {% endfor %}
+
+
+            <h3 class="mt-5">Join the community on the socials</h3>
+             {% for social in site.data.settings.social %}
+                <p class="paragraph-lg text-dark">
+                    <a class="text-white h4" href="{{ social.link }}">
+                    <button type="button" class="btn btn-secondary">{{ social.handle }} on  <strong> {{ social.name }} </strong></button>
+                    </a>
+                </p>
+            {% endfor %}
+
+            <h3 class="mt-5">Support me!</h3>
+            <p class="paragraph-lg text-dark">Help me creating much more creative projects by giving a small donation.</p>
+             {% for supportme in site.data.settings.supportme %}
+                <p class="paragraph-lg text-dark">
+                    <a class="text-white h4" href="{{ supportme.link }}">
+                    <button type="button" class="btn btn-secondary">{{ supportme.handle }} on  <strong> {{ supportme.name }} </strong></button>
+                    </a>
+                </p>
+            {% endfor %}
+
+            {{ content }}
+        </div>
+    </div>
+    </section>
+</body>
+
+</html>
+
+<!-- /about -->
