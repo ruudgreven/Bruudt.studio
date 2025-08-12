@@ -17,6 +17,17 @@ defaults:
       path: "_pages"
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: '_projects/en'
+    values:
+      permalink: 'news/:title'
+      language: en
+  - scope:
+      path: '_projects/nl'
+    values:
+      permalink: 'nieuws/:title'
+      language: nl
+
 
 include:
   - _pages
@@ -32,3 +43,4 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+
